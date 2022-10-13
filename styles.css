@@ -1,0 +1,148 @@
+.base {
+  width: 1440px;
+  background-color: hsl(30, 38%, 92%);
+  margin-top: 0;
+  height: 690px;
+  margin: 0px auto 0 auto;
+  position: relative;
+  top: 30px;
+}
+
+.base1 {
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  left: 370px;
+  right: 370px;
+  top: 95px;
+  border-radius: 10px;
+
+}
+
+.parfum-img {
+  width: 50%;
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  position: absolute;
+  left: 0;
+}
+
+.info {
+  width: 50%;
+  height: 500px;
+  position: absolute;
+  right: 0;
+  border-radius: 0 10px 10px 0;
+  background-color: white;
+}
+
+.info1 {
+  margin: 0;
+  position: absolute;
+  left: 35px;
+  right: 50px;
+  text-align: left;
+}
+
+.perfume {
+  letter-spacing: 10px;
+  position: absolute;
+  top: 33px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+.heading1 {
+  margin: 0;
+  position: absolute;
+  top: 70px;
+  font-family: 'Fraunces', serif;
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.para {
+  line-height: 2;
+  font-weight: 600;
+  margin: 0;
+  position: absolute;
+  top: 230px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+.rate {
+  position: absolute;
+  top: 330px;
+  font-size: 37px;
+  font-weight: bold;
+  font-family: 'Fraunces', serif;
+  color: hsl(158, 36%, 37%);
+
+}
+
+.srate {
+  font-weight: 600;
+  margin: 0;
+  position: absolute;
+  top: 372px;
+  left: 160px;
+}
+
+a {
+  position: absolute;
+  top: 427px;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-size: 14px;
+  padding: 10px 60px 10px 60px;
+  border-radius: 7px;
+  box-shadow: 0px 1px 3px white;
+}
+
+a:hover{
+  background-color: #1C6758;
+}
+
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500px;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+
+}
+
+.backg{
+  width: 100%;
+  height: 900px;
+  position: absolute;
+}
+
+
+.coder{
+  text-align: center;
+ position: absolute;
+ left: 610px;
+ top: 750px;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 19px;
+ color: black;
+ font-weight: 500;
+ text-decoration: overline;
+ line-height: 2;
+}
+
+.coder:hover{
+  color: white;
+}
